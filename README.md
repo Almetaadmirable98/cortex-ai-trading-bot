@@ -54,6 +54,18 @@ For those looking for an ai trading bot that combines automation with optional i
 - 📊 **Live dashboard** shows P&L tracking, trade history, and spread heatmaps
 - 🔧 **Modular architecture** makes it easy to add new exchanges, custom strategies, or alternative data sources
 
+```mermaid
+graph TD
+    A[Order Book Stream] --> B(Scanners: Binance/Bybit/OKX)
+    B --> C{Spread Calculator}
+    C -->|Spread > Threshold| D[Risk & Slippage Check]
+    C -->|Optional| E[LLM Sentiment Filter]
+    E --> D
+    D -->|Passed| F[Local Execution Router]
+    F --> G[Exchange APIs]
+
+```
+
 ## 🆚 Why Cortex AI Stands Out
 
 | Feature | Cortex AI | Manual Arbitrage | Signal Groups | Closed-Source Bots |
@@ -242,3 +254,24 @@ For developers searching for an open-source trading bot with Python, this projec
 > Cortex AI operates on a strictly **non-custodial** basis. We do not manage, store, or have access to your funds, private keys, or API credentials.
 >
 > Nothing in this repository constitutes financial advice. Use at your own risk.
+
+
+
+<!--
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Cortex AI",
+  "operatingSystem": "Windows, macOS, Linux",
+  "applicationCategory": "FinanceApplication",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "license": "https://opensource.org/licenses/MIT",
+  "programmingLanguage": "Python"
+}
+</script>
+-->
