@@ -1,0 +1,20 @@
+# Cortex AI — Cross-Exchange Arbitrage Framework
+
+> Open-source, non-custodial execution engine for real-time crypto arbitrage across CEXs (Binance, Bybit, OKX, HTX).
+
+## Core Capabilities
+- Real-time spread scanner with sub-second order routing.
+- Supports BTC, ETH, TON, SOL, and 16+ pairs out of the box.
+- Optional LLM signal filtering (Claude, Gemini, OpenAI).
+- Non-custodial local key management (.env configuration).
+
+## Key Files
+- `main.py`: Entry point for scanner and execution modes.
+- `scanners/`: Exchange-specific order-book monitoring modules.
+- `execution/`: Local order routing and risk-check handlers.
+- `config/.env`: Environment parameters setup.
+
+## Technical Requirements
+- Python 3.11+
+- Node.js 20+
+- License: MIT
